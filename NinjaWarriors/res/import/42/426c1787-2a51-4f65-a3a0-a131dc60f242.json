@@ -1,0 +1,5 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "Login",
+  "text": "syntax = \"proto3\";\r\npackage msg;\r\n\r\nmessage Login {\r\n    string name = 1;\r\n    string uid = 2;\r\n    string photoUrl = 3;\r\n}\r\n\r\nmessage ZiJieLogin {\r\n    string appid = 1;\r\n    string secret = 2;\r\n    string LoginCode = 3; //客户端login接口返回的登录凭证\r\n    int32 platform = 4;  // 0-抖音平台，1-微信平台\r\n}\r\n\r\nmessage ZiJieLoginResult {\r\n    string openid = 1;\r\n}"
+}

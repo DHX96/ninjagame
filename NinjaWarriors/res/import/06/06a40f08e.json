@@ -1,0 +1,191 @@
+[
+  {
+    "__type__": "cc.AudioClip",
+    "_name": "tipsWarn",
+    "_native": ".mp3"
+  },
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "BossComing",
+      "data": {
+        "__id__": 1
+      },
+      "optimizationPolicy": 1
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "BossComing",
+      "_children": [
+        {
+          "__id__": 2
+        }
+      ],
+      "_level": 1,
+      "_components": [
+        {
+          "__type__": "cc.Animation",
+          "node": {
+            "__id__": 1
+          },
+          "_defaultClip": {
+            "__uuid__": "dcwOUVaB1NirwYpvIvWTMQ"
+          },
+          "_clips": [
+            {
+              "__uuid__": "dcwOUVaB1NirwYpvIvWTMQ"
+            }
+          ],
+          "playOnLoad": true
+        },
+        {
+          "__type__": "56ba1AD4XZHyajuEUYGJeWX",
+          "node": {
+            "__id__": 1
+          },
+          "isAnimFinishDestroy": true
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 1
+          },
+          "_alignFlags": 18
+        },
+        {
+          "__type__": "347dfhrqSlIAJtOMO8wCQQo",
+          "node": {
+            "__id__": 1
+          },
+          "clipList": [
+            {
+              "__uuid__": "3a8K8rkbBGX5r04hq2aDoS"
+            }
+          ],
+          "playOnLoad": true
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "86cZQ1Pf5HxYKKTIdX1RRc"
+        },
+        "fileId": "3fuv4Cw3pEj6JsQ56M5ZRg"
+      },
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": 540,
+        "y": 960
+      },
+      "_scale": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "New Label",
+      "_parent": {
+        "__id__": 1
+      },
+      "_level": 2,
+      "_components": [
+        {
+          "__type__": "cc.Label",
+          "node": {
+            "__id__": 2
+          },
+          "_useOriginalSize": false,
+          "_string": "Boss出现",
+          "_N$string": "Boss出现",
+          "_fontSize": 120,
+          "_lineHeight": 130,
+          "_N$file": {
+            "__uuid__": "4euB4YWkxEP7neor4G/ViE"
+          },
+          "_isSystemFontUsed": false,
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "86cZQ1Pf5HxYKKTIdX1RRc"
+        },
+        "fileId": "049Gr0dWNFq6XnTBTbRHz8"
+      },
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 255
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 508.59,
+        "height": 130
+      },
+      "_scale": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    }
+  ],
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "Warning",
+    "_duration": 4,
+    "wrapMode": "0",
+    "curveData": {
+      "props": {
+        "opacity": [
+          {
+            "frame": 0,
+            "value": 255
+          },
+          {
+            "frame": 0.5,
+            "value": 100
+          },
+          {
+            "frame": 1,
+            "value": 255
+          },
+          {
+            "frame": 1.5,
+            "value": 100
+          },
+          {
+            "frame": 2,
+            "value": 255
+          },
+          {
+            "frame": 2.5,
+            "value": 100
+          },
+          {
+            "frame": 3.0166666666666666,
+            "value": 255
+          },
+          {
+            "frame": 3.5,
+            "value": 100
+          },
+          {
+            "frame": 4,
+            "value": 255
+          }
+        ]
+      }
+    }
+  }
+]

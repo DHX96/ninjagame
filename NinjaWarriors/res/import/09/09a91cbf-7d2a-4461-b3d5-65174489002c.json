@@ -1,0 +1,39 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "level10002",
+  "json": [
+    {
+      "monsterId": 1,
+      "waveId": 1,
+      "delayTime": 0,
+      "prefabName": "Rifle",
+      "x": 150,
+      "y": 0,
+      "moveDirX": 0,
+      "moveDirY": -1,
+      "dropItemId": 0
+    },
+    {
+      "monsterId": 2,
+      "waveId": 2,
+      "delayTime": 1,
+      "prefabName": "Rifle",
+      "x": 150,
+      "y": 0,
+      "moveDirX": 3,
+      "moveDirY": -4,
+      "dropItemId": 0
+    },
+    {
+      "monsterId": 3,
+      "waveId": 3,
+      "delayTime": 2,
+      "prefabName": "Rifle",
+      "x": 150,
+      "y": 0,
+      "moveDirX": -3,
+      "moveDirY": -4,
+      "dropItemId": 0
+    }
+  ]
+}

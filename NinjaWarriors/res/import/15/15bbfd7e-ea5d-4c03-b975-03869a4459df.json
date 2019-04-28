@@ -1,0 +1,8 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "serverInfo",
+  "json": {
+    "host": "ws://192.168.213.182",
+    "port": "3653"
+  }
+}

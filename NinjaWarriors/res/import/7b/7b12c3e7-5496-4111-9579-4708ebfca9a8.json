@@ -1,0 +1,5 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "PingPong",
+  "text": "syntax = \"proto3\";\r\npackage msg;\r\n\r\nmessage ClientPing{\r\n\r\n}"
+}

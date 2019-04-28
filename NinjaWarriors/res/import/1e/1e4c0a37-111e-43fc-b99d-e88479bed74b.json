@@ -1,0 +1,24 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "ItemDisappear",
+  "_duration": 1,
+  "wrapMode": "22",
+  "curveData": {
+    "paths": {
+      "Sprite": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 1,
+              "value": 50
+            }
+          ]
+        }
+      }
+    }
+  }
+}

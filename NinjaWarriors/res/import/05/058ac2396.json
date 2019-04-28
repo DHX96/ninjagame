@@ -1,0 +1,128 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "item1",
+      "texture": "7d7puXAOFPlpkFIIEs1VjG",
+      "rect": [
+        0,
+        4,
+        162,
+        138
+      ],
+      "offset": [
+        0,
+        -2
+      ],
+      "originalSize": [
+        162,
+        142
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "item2",
+      "texture": "dcdQXjSzVHn6hxHj/nvary",
+      "rect": [
+        1,
+        4,
+        161,
+        138
+      ],
+      "offset": [
+        0.5,
+        -2
+      ],
+      "originalSize": [
+        162,
+        142
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "DropItemTip",
+      "data": {
+        "__id__": 1
+      },
+      "optimizationPolicy": 2
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "DropItemTip",
+      "_level": 1,
+      "_components": [
+        {
+          "__id__": 2
+        },
+        {
+          "__type__": "3a65c7aaedGmJy/KDF/OUte",
+          "node": {
+            "__id__": 1
+          },
+          "spriteComp": {
+            "__id__": 2
+          },
+          "skinsList": [
+            {
+              "__uuid__": "26E3uJNBdP3LX3Ki8xnetO"
+            },
+            {
+              "__uuid__": "d1m/IcYU1IJ5TZn1ppTiZQ"
+            }
+          ]
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "f6DmJ/hYFHr5WMnRulBBBA"
+        },
+        "fileId": "89I+nCKjxG5KZwAPa+HAFG"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 162,
+        "height": 138
+      },
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": 106,
+        "y": 64.6
+      },
+      "_scale": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "__type__": "cc.Sprite",
+      "node": {
+        "__id__": 1
+      },
+      "_spriteFrame": {
+        "__uuid__": "26E3uJNBdP3LX3Ki8xnetO"
+      }
+    }
+  ]
+]

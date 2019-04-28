@@ -1,0 +1,39 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "level10000",
+  "json": [
+    {
+      "monsterId": 1,
+      "waveId": 1,
+      "delayTime": 0,
+      "prefabName": "MonstersBall",
+      "x": 0,
+      "y": 0,
+      "moveDirX": 0,
+      "moveDirY": -1,
+      "dropItemId": 0
+    },
+    {
+      "monsterId": 2,
+      "waveId": 2,
+      "delayTime": 1,
+      "prefabName": "MonstersBall",
+      "x": 0,
+      "y": 0,
+      "moveDirX": 4,
+      "moveDirY": -6,
+      "dropItemId": 0
+    },
+    {
+      "monsterId": 3,
+      "waveId": 3,
+      "delayTime": 2,
+      "prefabName": "MonstersBall",
+      "x": 0,
+      "y": 0,
+      "moveDirX": -4,
+      "moveDirY": -6,
+      "dropItemId": 0
+    }
+  ]
+}
